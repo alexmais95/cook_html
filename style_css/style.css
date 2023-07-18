@@ -7,28 +7,35 @@
 }
 
 .container_menu {
-    margin: 10px;
-    height: 80px;
-    background: #F4F2DE;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    color:#e9b384;
+    font-family: fantasy;
+    height: 60px;
+/*    background: #F4F2DE;*/
+    padding: 5px;
 }
 .logo {
-    border: dotted;
-    float: left;
-    height: 50px;
-    width: 70px;
+    height: 50px;  
 }
+
 .search {
-     border: dotted;
+     
      height: 50px;
-     width: 70px;
+     width: 70px;    
 }
 .loggin {
-     border: dotted;
+     
      height: 50px;
-     width: 70px;
+    
 }
 
 .container_cent_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin: 10px;
     padding: 10px;
     height: 700px;
@@ -58,7 +65,8 @@
     margin: 10px;
 }
 .container_buttom_menu {
-    margin: 10px;
+    margin: 5px;
+    margin-bottom: 5px;
     height: 100px;
     background: #7C9D96;
 }
