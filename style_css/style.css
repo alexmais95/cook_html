@@ -17,11 +17,10 @@
 /*    background: #F4F2DE;*/
     padding: 5px;
 }
-.logo: hover {
+.logo {
     height: 50px;  
-}
-.logo: hover: after {
     height: 100px;
+    text-transform: lowercase;
 }
 .search {
      
@@ -38,43 +37,38 @@
     display: flex;
     justify-content: space-around;
     position: relative;
+    
     margin: 10px;
     padding: 10px;
     height: 700px;
-    background: #e9b384;
+    color: #e9b384;
+/*    background: #e9b384;*/
+    font-size: 24px;
+    font-family: fantasy;
 }
 
-.top {
-     border: dotted;
-/*
-    height: 50px;
-    width: 1400px;
-*/
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 10px;
-}
 
-.left {
-    border: dotted;
-/*
-    height: 500px;
-    width: 1000px;
-*/
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin: 10px;
-}
 .right {
     border: dotted;
-/*    height: 500px;*/
     position: absolute;
+    left: 0;
+    right: 20%;
     bottom: 0;
-    right: 0;
-/*    width: 400px;*/
+    top: 0;
     margin: 10px;
+    z-index: 1;
+    text-align: center;
+}
+.left {
+    border: dotted;
+    position: absolute;
+    right: 0;
+    left: 80%;
+    bottom: 0;
+    top: 0;
+    margin: 10px;
+    z-index: 3;
+    text-align: center;
 }
 .container_buttom_menu {
     margin: 5px;
