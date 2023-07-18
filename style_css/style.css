@@ -2,24 +2,43 @@
 .main_container {
     height: 900px;
     padding: 10px;
-    border: solid;
+    
+    
 }
 
 .container_menu {
-    border: solid;
+    margin: 10px;
     height: 80px;
+    background: #F4F2DE;
+}
+.logo {
+    border: dotted;
+    float: left;
+    height: 50px;
+    width: 70px;
+}
+.search {
+     border: dotted;
+     height: 50px;
+     width: 70px;
+}
+.loggin {
+     border: dotted;
+     height: 50px;
+     width: 70px;
 }
 
-
 .container_cent_menu {
-    border: solid;
+    margin: 10px;
+    padding: 10px;
     height: 700px;
+    background: #e9b384;
 }
 
 .top {
      border: dotted;
     height: 50px;
-    width: 1470px;
+    width: 1400px;
     float: inherit;
     margin: 10px;
 }
@@ -39,6 +58,7 @@
     margin: 10px;
 }
 .container_buttom_menu {
-    border: solid;
+    margin: 10px;
     height: 100px;
+    background: #7C9D96;
 }
