@@ -11,17 +11,20 @@
     display: flex;
     justify-content: space-between;
     font-size: 24px;
-    color:#e9b384;
+    color:#862B0D;
     font-family: fantasy;
     height: 60px;
-/*    background: #F4F2DE;*/
+    width: 100%;
+    background: #B5C99A;
     padding: 5px;
 }
 .logo {
-    height: 50px;  
-    height: 100px;
-    text-transform: lowercase;
+    height: 50px; 
+    width: 150px;
+    text-transform: uppercase;
+    text-align: center;
 }
+
 .search {
      
      height: 50px;
@@ -30,6 +33,8 @@
 .loggin {
      
      height: 50px;
+    width: 150px;
+    text-align: center;
     
 }
 
@@ -41,7 +46,7 @@
     margin: 10px;
     padding: 10px;
     height: 700px;
-    color: #e9b384;
+    color: #862B0D;
 /*    background: #e9b384;*/
     font-size: 24px;
     font-family: fantasy;
@@ -74,5 +79,6 @@
     margin: 5px;
     margin-bottom: 5px;
     height: 100px;
-    background: #7C9D96;
+    width: 100%;
+    background: #FFC95F;
 }
