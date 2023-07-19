@@ -45,7 +45,7 @@
     
     margin: 10px;
     padding: 10px;
-    height: 700px;
+    height: 100%;
     color: #862B0D;
 /*    background: #e9b384;*/
     font-size: 24px;
@@ -55,14 +55,53 @@
 
 .right {
     border: dotted;
+    display: flex;
     position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+   
     left: 0;
     right: 20%;
     bottom: 0;
     top: 0;
     margin: 10px;
-    z-index: 1;
+    z-index: 0;
     text-align: center;
+    font-size: 24px;
+    padding: 5px;
+    
+  
+}
+.right_top {
+    
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.right_center {
+    align-self: center;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.right_buttom {
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+.iner_element {
+    height: 350px;
+    width: 250px;
+    border: dotted;
+    margin: 10px;
+    display: flex;
+    
 }
 .left {
     border: dotted;
@@ -74,11 +113,12 @@
     margin: 10px;
     z-index: 3;
     text-align: center;
+    
 }
 .container_buttom_menu {
     margin: 5px;
     margin-bottom: 5px;
-    height: 100px;
+    height: 150px;
     width: 100%;
     background: #FFC95F;
 }
