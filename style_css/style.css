@@ -13,7 +13,7 @@
     font-size: 24px;
     color:#862B0D;
     font-family: fantasy;
-    height: 60px;
+    height: 50px;
     width: 100%;
     background: #B5C99A;
     padding: 5px;
@@ -22,7 +22,7 @@
     height: 50px; 
     width: 150px;
     text-transform: uppercase;
-    text-align: center;
+    text-align:center;
 }
 .log_nav {
     text-decoration: none;
@@ -42,10 +42,11 @@
 }
 
 .search {
-     
      height: 50px;
-     width: 270px;    
+     width: 270px;
+    
 }
+
 .loggin {
      
      height: 50px;
@@ -134,12 +135,18 @@
     flex-direction: column;
     
 }
+.menu {
+    text-align: left;
+    margin: 10px;
+}
 .right_naw {
     font-size: 20px;
     height: 90%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin: 5px;
+    border: solid #B5C99A;
 }
 
 .nav_link {
