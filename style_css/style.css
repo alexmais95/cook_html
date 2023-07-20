@@ -166,4 +166,30 @@
     height: 250px;
     width: 100%;
     background: #FFC95F;
+    display: flex;
+    position: relative;
+    
+}
+.icons {
+    
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    top: 10px;
+    left: 5%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.icon_linc {
+    text-decoration: none;
+    color: #862B0D;
+    
+}
+.icon_linc:hover {
+    color: #FFF9C9;
+    transition: color 0.2s linear;
 }
